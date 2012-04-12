@@ -1,0 +1,14 @@
+#N canvas 537 150 709 623 10;
+#X obj 193 159 fux_lasertracker;
+#X obj 469 165 gemwin_control;
+#X obj 193 132 pix_video;
+#X obj 193 110 gemhead 10;
+#X text 261 110 harus kurang dari 14;
+#X floatatom 193 389 5 0 0 0 - - -;
+#X floatatom 386 390 5 0 0 0 - - -;
+#X text 209 367 X output;
+#X text 400 361 Y output;
+#X connect 0 0 5 0;
+#X connect 0 1 6 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
